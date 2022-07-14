@@ -17,3 +17,24 @@
 
 
 Все вопросы знаете куда задавать и писать по поводу панели. Если что-то меняете, то проверьте 10 раз, а потом ток в master делайте коммит))
+
+
+
+
+This admin panel is designed to work with Cerberus restapi bot.
+
+To run it locally, edit assembly, 3 bash scripts have been prepared, to be exact:
+
+    install.sh
+    build.sh
+    start.sh
+
+Let's take them in order:
+
+we need install.sh to install the entire environment, or rather, to load node modules, install the js obfuscator (for production), etc. We need npm installed to run this script!!! For the whole project is built on nodejs !!!
+
+build.sh assembly of the production build and its obfuscation. The build is added to the /build directory
+
+start.sh start npm server with panel on localhost:3000 !
+
+All questions know where to ask and write about the panel. If you change something, then check it 10 times, and then make a commit in master))
